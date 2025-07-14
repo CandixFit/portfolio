@@ -550,3 +550,12 @@ footer .container {
         gap: 15px;
     }
 }
+@media (max-width: 768px) {
+  .profilbild {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+}
